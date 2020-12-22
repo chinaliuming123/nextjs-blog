@@ -1,0 +1,55 @@
+/* 左侧logo */
+.logo-wrapper {
+  height     : 70px;
+  display    : flex;
+  align-items: center;
+
+}
+
+.logo-wrapper:hover {
+  cursor: pointer;
+}
+
+/* logo图片 */
+.logo-wrapper img {
+  width        : 51px;
+  height       : 34px;
+  padding-right: 10px;
+}
+
+/* logo文字 */
+.logo-text {
+  display       : flex;
+  flex-direction: column;
+  line-height   : normal;
+}
+
+.logo-text :first-child {
+  font-size     : 22px;
+  font-weight   : bold;
+  color         : rgba(51, 51, 51, 1);
+  letter-spacing: 5px;
+}
+
+.logo-text :nth-child(2) {
+  font-size     : 8px;
+  font-weight   : 400;
+  color         : rgba(51, 51, 51, 1);
+  letter-spacing: 0;
+}
+
+/* 右侧导航 */
+.nav-wrapper {
+  height         : 69px;
+  display        : flex;
+  justify-content: space-between;
+}
+
+.nav-wrapper .nav-list {
+  height      : 70px;
+  line-height : 70px;
+  margin-right: 25px;
+  font-size   : 14px;
+  font-weight : bold;
+  color       : rgba(64, 76, 103, 1);
+}
