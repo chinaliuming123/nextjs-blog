@@ -28,9 +28,9 @@ export default function Home({ allPostsData }) {
         <section>
           <div className="product-list">
             <img src="product.imgUrl" alt />
-            <div class="product-title-top"></div>
-            <div class="product-title-bottom"></div>
-            <div class="price"></div>
+            <div className="product-title-top"></div>
+            <div className="product-title-bottom"></div>
+            <div className="price"></div>
           </div>
         </section>
 
